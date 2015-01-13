@@ -23,7 +23,7 @@ with(data, {
   plot(Global_active_power~Datetime, type="l", ylab="Global Active Power", xlab="")
 
   # Draw top right graph
-  plot(Voltage~Datetime, type="l", ylab="Voltage", xlab="")
+  plot(Voltage~Datetime, type="l", ylab="Voltage", xlab="datetime")
   
   # Draw bottom left graph
   plot(Sub_metering_1~Datetime, type="l", ylab="Energy sub metering", xlab="")
@@ -32,7 +32,7 @@ with(data, {
   legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
   
   # Draw bottomm right graph
-  plot(Global_reactive_power~Datetime, type="l", ylab="Global_reactive_power",xlab="")
+  plot(Global_reactive_power~Datetime, type="l", ylab="Global_reactive_power",xlab="datetime")
 })
 
 dev.off()
