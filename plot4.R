@@ -1,6 +1,6 @@
 ############################################
 ## Coursera - Exploratory Data Analysis   ##
-## Project #1 - Plot 3                    ##
+## Project #1 - Plot 4                    ##
 ############################################
 
 ## Read the full dataset
